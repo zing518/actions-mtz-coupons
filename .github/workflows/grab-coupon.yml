@@ -7,7 +7,7 @@ on:
   # 定时任务
   schedule:
     # https://crontab.guru/
-    # UTC 时间，中国时区应减 8
+    # UTC 时间，中国时区应减 8  ##2+8 即为北京时间
     #         ┌────────── minute (0 - 59)
     #         │ ┌──────── hour (0 - 23)
     #         │ │ ┌────── day of the month (1 - 31)
