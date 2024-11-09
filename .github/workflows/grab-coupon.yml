@@ -14,7 +14,8 @@ on:
     #         │ │ │ ┌──── month (1 - 12 or JAN-DEC)
     #         │ │ │ │ ┌── day of the week (0 - 6 or SUN-SAT)
     #         │ │ │ │ │
-    - cron: '30,32 14 * * *'
+    - cron: '30 14 * * *'
+    - cron: '50 14 * * *'
 
 jobs:
   start:
